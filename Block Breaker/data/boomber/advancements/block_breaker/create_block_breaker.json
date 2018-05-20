@@ -1,14 +1,14 @@
 {
 	"display": {
-		"title": "Block breaker",
-		"description": "Place item frame on dropper with hopper below and place pickaxe inside item frame",
+		"title": "Mine blocks with style",
+		"description": "Place dropper on hopper block then item frame with pickaxe inside",
 		"icon": {
 			"item": "minecraft:dropper"
 		},
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "boomber.block_breaker:block_breaker/root",
+	"parent": "boomber:block_breaker/block_breaker",
 	"criteria": {
 		"wooden": {
 			"trigger": "minecraft:inventory_changed",

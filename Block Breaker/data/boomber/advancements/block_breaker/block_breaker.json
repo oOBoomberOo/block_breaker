@@ -1,0 +1,17 @@
+{
+	"display": {
+		"description": "",
+		"title": "Block Breaker v10302",
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "boomber:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
