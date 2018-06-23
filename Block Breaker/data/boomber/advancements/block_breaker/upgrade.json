@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Getting an upgrade",
+		"description": "Put diamond inside hopper below the dropper",
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "boomber:block_breaker/create_block_breaker",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond"
+					}
+				]
+			}
+		}
+	}
+}
